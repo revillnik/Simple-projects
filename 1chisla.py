@@ -1,7 +1,6 @@
 from random import *
 
 n = randint(1, 100)
-print(n)
 print("Добро пожаловать в числовую угадайку :)")
 
 
@@ -26,7 +25,6 @@ while True:
         s = input()
         if s in 'yesда':
             n = randint(1, 100)
-            print(n)
         else:
             print('Спасибо за игру')
             break
