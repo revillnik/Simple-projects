@@ -1,6 +1,6 @@
 from random import *
 
-n = randint(1, 10)
+n = randint(1, 100pu)
 print(n)
 print("Добро пожаловать в числовую угадайку :)")
 
