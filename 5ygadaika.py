@@ -95,7 +95,7 @@ def play(s):
             while byk.lower() in slovo:
                 naz[slovo.index(byk)] = slovo[slovo.index(byk)]
                 slovo[slovo.index(byk)] = " "
-                print(" ".join(naz))
+            print(" ".join(naz))
         else:
             tries = tries - 1
             print("У вас осталось попыток - ", tries)
